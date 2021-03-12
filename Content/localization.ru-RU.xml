@@ -1,0 +1,44 @@
+﻿<Language Name="English">
+  <!--CONFIGURATION-->
+  <LocaleResource Name="Nop.Plugin.Opensoftware.DiscountRule.HasOneProduct.Configuration.Description">
+    <Value>Данное правило, позволяет давать скидку клиентам купившим определённый товар ранее.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Nop.Plugin.Opensoftware.DiscountRule.HasOneProduct.Configuration.Information">
+    <Value>Перед тем как приступить к редактированию Вы должны сохранить правило.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Nop.Plugin.Opensoftware.DiscountRules.HasOneProduct.Configuration.Picture">
+    <Value>Изображение</Value>
+  </LocaleResource>
+  <LocaleResource Name="Nop.Plugin.Opensoftware.DiscountRules.HasOneProduct.Configuration.Sku">
+    <Value>Артикул</Value>
+  </LocaleResource>
+  <LocaleResource Name="Nop.Plugin.Opensoftware.DiscountRules.HasOneProduct.Configuration.Name">
+    <Value>Название</Value>
+  </LocaleResource>
+  <LocaleResource Name="Nop.Plugin.Opensoftware.DiscountRules.HasOneProduct.Configuration.Published">
+    <Value>Опубликован</Value>
+  </LocaleResource>
+  <LocaleResource Name="Nop.Plugin.Opensoftware.DiscountRules.HasOneProduct.Configuration.MinQuantity">
+    <Value>Минимальное количество</Value>
+  </LocaleResource>
+  <LocaleResource Name="Nop.Plugin.Opensoftware.DiscountRules.HasOneProduct.Configuration.MaxQuantity">
+    <Value>Максимальное количество</Value>
+  </LocaleResource>
+  <LocaleResource Name="Nop.Plugin.Opensoftware.DiscountRules.HasOneProduct.Fields.Products.AddNew">
+    <Value>Добавить товар</Value>
+  </LocaleResource>
+  <!--ADD PRODUCTS-->
+  <LocaleResource Name="Nop.Plugin.Opensoftware.DiscountRules.HasOneProduct.Fields.Products.AddProducts">
+    <Value>Добавить товары</Value>
+  </LocaleResource>
+  <!--VALIDATION-->
+  <LocaleResource Name="Nop.Plugin.Opensoftware.DiscountRules.HasOneProduct.RequirementProduct.MinQuantity.MustBeGreaterThanZero">
+    <Value>Минимальное количество товара должно быть больше нуля.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Nop.Plugin.Opensoftware.DiscountRules.HasOneProduct.RequirementProduct.MaxQuantity.MustBeGreaterThanZero">
+    <Value>Максимальное количество должно быть больше нуля.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Nop.Plugin.Opensoftware.DiscountRules.HasOneProduct.RequirementProduct.MaxQuantity.MustBeGreaterMinQuantity">
+    <Value>Максимальное число должно быть больше минимального числа.</Value>
+  </LocaleResource>
+</Language>

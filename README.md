@@ -1,0 +1,1 @@
+# Friendly-HasOneProduct-DiscountRequeirement
