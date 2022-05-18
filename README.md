@@ -6,7 +6,7 @@ Features:
 * Simple installation. You need just upload it and install and the plugin are ready to work;
 * Friendly user interface. You can manage your discount rules more simply. No more needs to parse text row by your eyes😉;
 * Supported languages: English, Ukrainian, Russian;
-* All languages installing automatically, if this languages are exist in your store previously;
+* All languages installing automatically, if this languages are already exist in your store;
 
 ## Installation:
 * Download plugin archive.
