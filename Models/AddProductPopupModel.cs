@@ -1,7 +1,7 @@
 ﻿using Nop.Web.Areas.Admin.Models.Catalog;
 using Nop.Web.Framework.Models;
 
-namespace Nop.Plugin.Opensoftware.DiscountRules.HasOneProduct.Models
+namespace Nop.Plugin.Baroque.DiscountRules.HasOneProduct.Models
 {
     public class AddProductPopupModel : ProductSearchModel
     {

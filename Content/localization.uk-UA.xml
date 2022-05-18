@@ -1,0 +1,44 @@
+﻿<Language Name="Українська">
+	<!--CONFIGURATION-->
+	<LocaleResource Name="Nop.Plugin.Baroque.DiscountRule.HasOneProduct.Configuration.Description">
+		<Value>Це правило, долзволяє надавати знижку клієнтам, що придбали первний товар.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Nop.Plugin.Baroque.DiscountRule.HasOneProduct.Configuration.Information">
+		<Value>Перед початком редагування необхідно зберегти правило.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Nop.Plugin.Baroque.DiscountRules.HasOneProduct.Configuration.Picture">
+		<Value>Зображення</Value>
+	</LocaleResource>
+	<LocaleResource Name="Nop.Plugin.Baroque.DiscountRules.HasOneProduct.Configuration.Sku">
+		<Value>Артикул</Value>
+	</LocaleResource>
+	<LocaleResource Name="Nop.Plugin.Baroque.DiscountRules.HasOneProduct.Configuration.Name">
+		<Value>Назва</Value>
+	</LocaleResource>
+	<LocaleResource Name="Nop.Plugin.Baroque.DiscountRules.HasOneProduct.Configuration.Published">
+		<Value>Опулікований</Value>
+	</LocaleResource>
+	<LocaleResource Name="Nop.Plugin.Baroque.DiscountRules.HasOneProduct.Configuration.MinQuantity">
+		<Value>Мінімальна кількість</Value>
+	</LocaleResource>
+	<LocaleResource Name="Nop.Plugin.Baroque.DiscountRules.HasOneProduct.Configuration.MaxQuantity">
+		<Value>Максимальна кількість</Value>
+	</LocaleResource>
+	<LocaleResource Name="Nop.Plugin.Baroque.DiscountRules.HasOneProduct.Fields.Products.AddNew">
+		<Value>Додати товар</Value>
+	</LocaleResource>
+	<!--ADD PRODUCTS-->
+	<LocaleResource Name="Nop.Plugin.Baroque.DiscountRules.HasOneProduct.Fields.Products.AddProducts">
+		<Value>Додати товари</Value>
+	</LocaleResource>
+	<!--VALIDATION-->
+	<LocaleResource Name="Nop.Plugin.Baroque.DiscountRules.HasOneProduct.RequirementProduct.MinQuantity.MustBeGreaterThanZero">
+		<Value>Мінімальна кількість повинна бути більше нуля.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Nop.Plugin.Baroque.DiscountRules.HasOneProduct.RequirementProduct.MaxQuantity.MustBeGreaterThanZero">
+		<Value>Максимальна кількість повинна бути більше нуля.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Nop.Plugin.Baroque.DiscountRules.HasOneProduct.RequirementProduct.MaxQuantity.MustBeGreaterMinQuantity">
+		<Value>Максимальна кількість повинна бути більшою за мінімальну.</Value>
+	</LocaleResource>
+</Language>

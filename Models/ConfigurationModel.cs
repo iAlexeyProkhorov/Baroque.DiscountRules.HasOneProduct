@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using Nop.Web.Framework.Models;
-using Nop.Web.Framework.Mvc.ModelBinding;
+﻿using Nop.Web.Framework.Models;
 
-namespace Nop.Plugin.Opensoftware.DiscountRules.HasOneProduct.Models
+namespace Nop.Plugin.Baroque.DiscountRules.HasOneProduct.Models
 {
     public class ConfigurationModel : BaseSearchModel
     {

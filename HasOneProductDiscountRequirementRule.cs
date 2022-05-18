@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.AspNetCore.Mvc.Routing;
 using Nop.Core;
 using Nop.Core.Domain.Orders;
-using Nop.Plugin.Opensoftware.DiscountRules.HasOneProduct.Extensions;
+using Nop.Plugin.Baroque.DiscountRules.HasOneProduct.Extensions;
 using Nop.Services.Configuration;
 using Nop.Services.Discounts;
 using Nop.Services.Localization;
@@ -11,9 +11,9 @@ using Nop.Services.Orders;
 using System;
 using System.Linq;
 
-namespace Nop.Plugin.Opensoftware.DiscountRules.HasOneProduct
+namespace Nop.Plugin.Baroque.DiscountRules.HasOneProduct
 {
-    public partial class HasOneProductDiscountRequirementRule : BaseOswPlugin, IDiscountRequirementRule
+    public partial class HasOneProductDiscountRequirementRule : BaseBaroquePlugin, IDiscountRequirementRule
     {
         #region Fields
 

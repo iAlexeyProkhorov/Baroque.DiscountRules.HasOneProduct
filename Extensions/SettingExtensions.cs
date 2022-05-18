@@ -1,7 +1,7 @@
 ﻿using Nop.Core.Domain.Discounts;
-using Nop.Plugin.Opensoftware.DiscountRules.HasOneProduct.Models;
+using Nop.Plugin.Baroque.DiscountRules.HasOneProduct.Models;
 
-namespace Nop.Plugin.Opensoftware.DiscountRules.HasOneProduct.Extensions
+namespace Nop.Plugin.Baroque.DiscountRules.HasOneProduct.Extensions
 {
     public static class SettingExtensions
     {

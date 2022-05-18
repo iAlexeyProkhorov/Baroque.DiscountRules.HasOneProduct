@@ -8,7 +8,7 @@
     var hideSearchBlock = genericAttributeService.GetAttribute<bool>(workContext.CurrentCustomer, hideSearchBlockAttributeName);
 
     //page title
-    ViewBag.Title = T("Plugins.Opensoftware.DiscountRules.HasOneProduct.Fields.Products.Choose").Text;
+    ViewBag.Title = T("Nop.Plugin.Baroque.DiscountRules.HasOneProduct.AddProducts.Choose").Text;
 }
 
 @if (ViewBag.RefreshPage == true)
@@ -25,7 +25,7 @@
 <form asp-controller="DiscountRulesHasOneProduct" asp-action="AddProductPopup" method="post">
     <div class="content-header clearfix">
         <h1 class="pull-left">
-            @T("Nop.Plugin.Opensoftware.DiscountRules.HasOneProduct.Fields.Products.AddProducts")
+            @T("Nop.Plugin.Baroque.DiscountRules.HasOneProduct.Fields.Products.AddProducts")
         </h1>
         <div class="pull-right">
             &nbsp;

@@ -1,0 +1,17 @@
+P:\Opensoftware\TFS\NopCommercePlugins\nopCommerce_4.20_Source\Presentation\Nop.Web\Plugins\DiscountRules.PurchasedOneProduct\logo.jpg
+P:\Opensoftware\TFS\NopCommercePlugins\nopCommerce_4.20_Source\Presentation\Nop.Web\Plugins\DiscountRules.PurchasedOneProduct\plugin.json
+P:\Opensoftware\TFS\NopCommercePlugins\nopCommerce_4.20_Source\Presentation\Nop.Web\Plugins\DiscountRules.PurchasedOneProduct\Views\Configure.cshtml
+P:\Opensoftware\TFS\NopCommercePlugins\nopCommerce_4.20_Source\Presentation\Nop.Web\Plugins\DiscountRules.PurchasedOneProduct\Views\ProductAddPopup.cshtml
+P:\Opensoftware\TFS\NopCommercePlugins\nopCommerce_4.20_Source\Presentation\Nop.Web\Plugins\DiscountRules.PurchasedOneProduct\Views\_ViewImports.cshtml
+P:\Opensoftware\TFS\NopCommercePlugins\nopCommerce_4.20_Source\Presentation\Nop.Web\Plugins\DiscountRules.PurchasedOneProduct\Nop.Plugin.Opensoftware.DiscountRules.PurchasedOneProduct.deps.json
+P:\Opensoftware\TFS\NopCommercePlugins\nopCommerce_4.20_Source\Presentation\Nop.Web\Plugins\DiscountRules.PurchasedOneProduct\Nop.Plugin.Opensoftware.DiscountRules.PurchasedOneProduct.dll
+P:\Opensoftware\TFS\NopCommercePlugins\nopCommerce_4.20_Source\Presentation\Nop.Web\Plugins\DiscountRules.PurchasedOneProduct\Nop.Plugin.Opensoftware.DiscountRules.PurchasedOneProduct.pdb
+P:\Opensoftware\TFS\NopCommercePlugins\nopCommerce_4.20_Source\Plugins\Nop.Plugin.DiscountRules.PurchasedOneProduct\obj\Debug\netcoreapp2.2\Nop.Plugin.Opensoftware.DiscountRules.PurchasedOneProduct.csprojAssemblyReference.cache
+P:\Opensoftware\TFS\NopCommercePlugins\nopCommerce_4.20_Source\Plugins\Nop.Plugin.DiscountRules.PurchasedOneProduct\obj\Debug\netcoreapp2.2\Nop.Plugin.Opensoftware.DiscountRules.PurchasedOneProduct.csproj.CoreCompileInputs.cache
+P:\Opensoftware\TFS\NopCommercePlugins\nopCommerce_4.20_Source\Plugins\Nop.Plugin.DiscountRules.PurchasedOneProduct\obj\Debug\netcoreapp2.2\Nop.Plugin.Opensoftware.DiscountRules.PurchasedOneProduct.AssemblyInfoInputs.cache
+P:\Opensoftware\TFS\NopCommercePlugins\nopCommerce_4.20_Source\Plugins\Nop.Plugin.DiscountRules.PurchasedOneProduct\obj\Debug\netcoreapp2.2\Nop.Plugin.Opensoftware.DiscountRules.PurchasedOneProduct.AssemblyInfo.cs
+P:\Opensoftware\TFS\NopCommercePlugins\nopCommerce_4.20_Source\Plugins\Nop.Plugin.DiscountRules.PurchasedOneProduct\obj\Debug\netcoreapp2.2\Nop.Plugin.Opensoftware.DiscountRules.PurchasedOneProduct.csproj.CopyComplete
+P:\Opensoftware\TFS\NopCommercePlugins\nopCommerce_4.20_Source\Plugins\Nop.Plugin.DiscountRules.PurchasedOneProduct\obj\Debug\netcoreapp2.2\Nop.Plugin.Opensoftware.DiscountRules.PurchasedOneProduct.dll
+P:\Opensoftware\TFS\NopCommercePlugins\nopCommerce_4.20_Source\Plugins\Nop.Plugin.DiscountRules.PurchasedOneProduct\obj\Debug\netcoreapp2.2\Nop.Plugin.Opensoftware.DiscountRules.PurchasedOneProduct.pdb
+P:\Opensoftware\TFS\NopCommercePlugins\nopCommerce_4.20_Source\Presentation\Nop.Web\Plugins\DiscountRules.PurchasedOneProduct\Content\localization.en-US.xml
+P:\Opensoftware\TFS\NopCommercePlugins\nopCommerce_4.20_Source\Presentation\Nop.Web\Plugins\DiscountRules.PurchasedOneProduct\Content\localization.ru-RU.xml

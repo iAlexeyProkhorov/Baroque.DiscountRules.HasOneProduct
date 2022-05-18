@@ -2,8 +2,8 @@
 using Nop.Core;
 using Nop.Core.Domain.Catalog;
 using Nop.Core.Domain.Discounts;
-using Nop.Plugin.Opensoftware.DiscountRules.HasOneProduct.Extensions;
-using Nop.Plugin.Opensoftware.DiscountRules.HasOneProduct.Models;
+using Nop.Plugin.Baroque.DiscountRules.HasOneProduct.Extensions;
+using Nop.Plugin.Baroque.DiscountRules.HasOneProduct.Models;
 using Nop.Services.Catalog;
 using Nop.Services.Configuration;
 using Nop.Services.Discounts;
@@ -21,7 +21,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Nop.Plugin.Opensoftware.DiscountRules.HasOneProduct.Controllers
+namespace Nop.Plugin.Baroque.DiscountRules.HasOneProduct.Controllers
 {
     [AuthorizeAdmin]
     [Area(AreaNames.Admin)]
@@ -29,6 +29,7 @@ namespace Nop.Plugin.Opensoftware.DiscountRules.HasOneProduct.Controllers
     {
         #region Fields
 
+        private readonly ICategoryService _categoryService;
         private readonly IDiscountService _discountService;
         private readonly IPermissionService _permissionService;
         private readonly IPictureService _pictureService;
@@ -40,13 +41,15 @@ namespace Nop.Plugin.Opensoftware.DiscountRules.HasOneProduct.Controllers
 
         #region Constructor
 
-        public DiscountRulesHasOneProductController(IDiscountService discountService,
+        public DiscountRulesHasOneProductController(ICategoryService categoryService,
+            IDiscountService discountService,
             IPermissionService permissionService,
             IPictureService pictureService,
             IProductModelFactory productModelFactory,
             IProductService productService,
             ISettingService settingService)
         {
+            _categoryService = categoryService;
             _discountService = discountService;
             _permissionService = permissionService;
             _pictureService = pictureService;
@@ -360,8 +363,20 @@ namespace Nop.Plugin.Opensoftware.DiscountRules.HasOneProduct.Controllers
         [HttpPost]
         public virtual IActionResult AddProductPopupList(AddProductPopupModel model)
         {
+            var searchCategories = new List<int>()
+            {
+                model.SearchCategoryId
+            };
+
+            //search also in category child categories
+            if (model.SearchIncludeSubCategories)
+            {
+                var childCategories = _categoryService.GetChildCategoryIds(model.SearchCategoryId);
+                searchCategories.AddRange(childCategories);
+            }
+
             var products = _productService.SearchProducts(
-                categoryIds: new List<int> { model.SearchCategoryId },
+                categoryIds: searchCategories,
                 manufacturerId: model.SearchManufacturerId,
                 storeId: model.SearchStoreId,
                 vendorId: model.SearchVendorId,

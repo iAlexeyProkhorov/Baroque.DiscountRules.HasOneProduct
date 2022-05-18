@@ -9,14 +9,14 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
-    <Copyright>Copyright © Open Software S.r.l</Copyright>
-    <Company>Open Software S.r.l</Company>
-    <Authors>Open Software S.r.l</Authors>
+    <Copyright>Copyright © Baroque Team</Copyright>
+    <Company>Baroque Team</Company>
+    <Authors>Baroque Team</Authors>
     <PackageLicenseUrl></PackageLicenseUrl>
     <PackageProjectUrl></PackageProjectUrl>
     <RepositoryUrl></RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
-    <OutputPath>..\..\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct</OutputPath>
+    <OutputPath>..\..\Presentation\Nop.Web\Plugins\Baroque.DiscountRules.HasOneProduct</OutputPath>
     <OutDir>$(OutputPath)</OutDir>
     <!--Set this parameter to true to get the dlls copied from the NuGet cache to the output of your project.
     You need to set this parameter to true if your plugin has a nuget package 
@@ -62,13 +62,16 @@
     <None Update="Content\localization.ru-RU.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Content\localization.uk-UA.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\Presentation\Nop.Web.Framework\Nop.Web.Framework.csproj">
       <Private>false</Private>
     </ProjectReference>
-    <ProjectReference Include="..\..\Presentation\Nop.Web\Nop.Web.csproj">
+	  <ProjectReference Include="..\..\Presentation\Nop.Web\Nop.Web.csproj">
       <Private>false</Private>
     </ProjectReference>
   </ItemGroup>

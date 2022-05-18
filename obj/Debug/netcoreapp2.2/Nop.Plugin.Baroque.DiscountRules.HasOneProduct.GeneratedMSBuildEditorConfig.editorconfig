@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Nop.Plugin.Baroque.DiscountRules.HasOneProduct
+build_property.ProjectDir = P:\Baroque\Git\nopCommerce_4.20_Source\Plugins\Nop.Plugin.Baroque.DiscountRules.HasOneProduct\

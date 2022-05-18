@@ -4,8 +4,8 @@
   "SystemName": "DiscountRequirement.HasOneProduct",
   "Version": "1.0.0",
   "SupportedVersions": [ "4.20" ],
-  "Author": "Open Software S.r.l",
+  "Author": "Baroque Team",
   "DisplayOrder": 1,
-  "FileName": "Nop.Plugin.Opensoftware.DiscountRules.HasOneProduct.dll",
+  "FileName": "Nop.Plugin.Baroque.DiscountRules.HasOneProduct.dll",
   "Description": "This plugin allows you to configure discounts for customers who have one of a certain product in the cart"
 }

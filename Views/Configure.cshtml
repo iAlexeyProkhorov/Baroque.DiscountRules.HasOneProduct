@@ -21,38 +21,39 @@
            {
                new ColumnProperty(nameof(ConfigurationModel.RequirementProductModel.PictureUrl))
                {
-                   Title = T("Nop.Plugin.Opensoftware.DiscountRules.HasOneProduct.Configuration.Picture").Text,
+                   Title = T("Nop.Plugin.Baroque.DiscountRules.HasOneProduct.Configuration.Picture").Text,
                    Render = new RenderPicture(),
                    Width = "150"
                },
                new ColumnProperty(nameof(ConfigurationModel.RequirementProductModel.Sku))
                {
-                   Title = T("Nop.Plugin.Opensoftware.DiscountRules.HasOneProduct.Configuration.Sku").Text,
+                   Title = T("Nop.Plugin.Baroque.DiscountRules.HasOneProduct.Configuration.Sku").Text,
                    Width = "100"
                },
                new ColumnProperty(nameof(ConfigurationModel.RequirementProductModel.Name))
                {
-                   Title = T("Nop.Plugin.Opensoftware.DiscountRules.HasOneProduct.Configuration.Name").Text,
+                   Title = T("Nop.Plugin.Baroque.DiscountRules.HasOneProduct.Configuration.Name").Text,
                    Width = "200"
                },
                new ColumnProperty(nameof(ConfigurationModel.RequirementProductModel.Published))
                {
-                   Title = T("Nop.Plugin.Opensoftware.DiscountRules.HasOneProduct.Configuration.Published").Text,
+                   Title = T("Nop.Plugin.Baroque.DiscountRules.HasOneProduct.Configuration.Published").Text,
                    Render = new RenderBoolean(),
+                   ClassName = NopColumnClassDefaults.CenterAll,
                    Width = "50"
                },
                new ColumnProperty(nameof(ConfigurationModel.RequirementProductModel.MinQuantity))
                {
                    Editable = true,
                    EditType = EditType.Number,
-                   Title = T("Nop.Plugin.Opensoftware.DiscountRules.HasOneProduct.Configuration.MinQuantity").Text,
+                   Title = T("Nop.Plugin.Baroque.DiscountRules.HasOneProduct.Configuration.MinQuantity").Text,
                    Width = "50"
                },
                new ColumnProperty(nameof(ConfigurationModel.RequirementProductModel.MaxQuantity))
                {
                    Editable = true,
                    EditType = EditType.Number,
-                   Title = T("Nop.Plugin.Opensoftware.DiscountRules.HasOneProduct.Configuration.MaxQuantity").Text,
+                   Title = T("Nop.Plugin.Baroque.DiscountRules.HasOneProduct.Configuration.MaxQuantity").Text,
                    Width = "50"
                },
                new ColumnProperty(nameof(ConfigurationModel.RequirementProductModel.Id))
@@ -76,7 +77,7 @@
         <div class="panel-footer">
             <input type="submit"
                    id="btnAddNewDiscountRequirementProduct@(Model.RequirementId)"
-                   value="@T("Nop.Plugin.Opensoftware.DiscountRules.HasOneProduct.Fields.Products.AddNew")"
+                   value="@T("Nop.Plugin.Baroque.DiscountRules.HasOneProduct.Fields.Products.AddNew")"
                    onclick="javascript:OpenWindow('@Url.Action("AddProductPopup", "DiscountRulesHasOneProduct", new { btnId = $"btnRefreshDiscountRequirementProducts{Model.RequirementId}", requirementId = Model.RequirementId })', 800, 850, true); return false;"
                    class="btn btn-info" />
             <input type="submit" id="btnRefreshDiscountRequirementProducts@(Model.RequirementId)" style="display: none" />
@@ -90,12 +91,12 @@ else
         </div>
         <div class="col-md-9 requirement-data-col">
             <div class="requirement-data-input" style="padding:10px;">
-                @T("Nop.Plugin.Opensoftware.DiscountRule.HasOneProduct.Configuration.Description")
+                @T("Nop.Plugin.Baroque.DiscountRule.HasOneProduct.Configuration.Description")
             </div>
             <div class="requirement-data-input">
                 <div class="ui-state-highlight ui-corner-all" style="margin-top: 0px; padding: 10px;">
                     <span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>
-                    <i>@T("Nop.Plugin.Opensoftware.DiscountRule.HasOneProduct.Configuration.Information")</i>
+                    <i>@T("Nop.Plugin.Baroque.DiscountRule.HasOneProduct.Configuration.Information")</i>
                 </div>
             </div>
             <div class="requirement-data-buttons">
