@@ -2,6 +2,9 @@
 
 'Friendly Has One Product' is almost same as nopCommerce standard 'HasOneProduct' plugin, but have more friendly user interface.
 
+One time I need to add 'Has One Product' requirement rule to discount and has bit shock when see the plugin interface. It's pretty minimalistic, but it's hard to parse single text row by your eyes when you need to change something. For example: `1,5,7:1,8:1-3,100:2-3,100500:2,1115678:3-5,123456:5 and so on.`
+This plugin should make this work simpler, because now you can edit discount requirement products in grid.
+
 ### Here is plugin interface.
 ![alt text](https://github.com/iAlexeyProkhorov/iAlexeyProkhorov/blob/main/Content/Has%20One%20Product/420.png)
 
