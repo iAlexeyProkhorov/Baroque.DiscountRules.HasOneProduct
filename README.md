@@ -1,11 +1,11 @@
 # Friendly Has One Product
 
 'Friendly Has One Product' is almost same as nopCommerce standard 'HasOneProduct' plugin, but have more friendly user interface.
+
+### Here is plugin interface.
 ![alt text](https://github.com/iAlexeyProkhorov/iAlexeyProkhorov/blob/main/Content/Has%20One%20Product/420.png)
 
-### Important: 
-* You need to save requirement rule in your discount before edit it, when use our plugin;
-![alt_text](https://github.com/iAlexeyProkhorov/iAlexeyProkhorov/blob/main/Content/Has%20One%20Product/420-save-before-edit.png)
+It looks like standrd nopCommerce admin table with inline edit mode 🙂.
 
 ## Features:
 * Simple installation. You need just upload it and install and the plugin are ready to work. If you have already installed standard 'Has One Product' nopCommerce plugin, you no need to install plugin, just upload 🙂;
