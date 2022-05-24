@@ -11,6 +11,7 @@ This plugin should make this work simpler, because now you can edit discount req
 It looks like standrd nopCommerce admin table with inline edit mode 🙂.
 
 ## Features:
+* Plugin absolutely compatible with standard nopCommerce plugin. This means that you can install it istead standrd plugin or just upload it instead stadard plugin, if you already use it. All your requirement rules will be save and you can work with them with new comfortable interface;
 * Simple installation. You need just upload it and install and the plugin are ready to work. If you have already installed standard 'Has One Product' nopCommerce plugin, you no need to install plugin, just upload 🙂;
 * Friendly user interface. You can manage your discount rules more simply. No more needs to parse text row by your eyes😉;
 * Supported languages: English, Ukrainian, Russian;
